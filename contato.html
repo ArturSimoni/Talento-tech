@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Confeitaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="assets/logo_confeitaria.jpeg" alt="Logo da Confeitaria">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </label>
+            <nav class="nav">
+                <a href="index.html" class="button">Início</a>
+                <a href="sobre.html" class="button">Sobre</a>
+                <a href="galeria.html" class="button">Galeria</a>
+                <a href="contato.html" class="button">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida ou quer fazer um pedido especial? Preencha o formulário abaixo e entraremos em contato com você!</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Seu Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Seu E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" placeholder="Digite sua mensagem" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Confeitaria. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
